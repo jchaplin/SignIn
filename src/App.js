@@ -1,5 +1,5 @@
-import "./styles.css"
-import { Frame } from "framer"
+import "./styles.css";
+import { Frame } from "framer";
 
 export default function App() {
   return (
@@ -7,10 +7,13 @@ export default function App() {
       <Frame
         width={120}
         height={60}
-        style={{ borderRadius: 30, background: "red" }}
+        style={{
+          borderRadius: 30,
+          background: "blue"
+        }}
       >
         <Frame size={60} borderRadius={30} background="black" />
       </Frame>
     </div>
-  )
+  );
 }
